@@ -1,0 +1,76 @@
+@import "leaflet/dist/leaflet.css";
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Tipografías generales */
+  body, html {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  /* Logo común */
+  .logo {
+    max-height: 60px;
+    height: auto;
+    width: auto;
+  }
+  
+  /* Navbar común */
+  .navbar {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar .nav-link, 
+  .navbar .btn-link {
+    color: #198754 !important;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar .nav-link:hover,
+  .navbar .btn-link:hover {
+    color: #145c32 !important;
+  }
+  
+  /* Botones */
+  .btn-success {
+    background-color: #198754;
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #145c32;
+  }
+  
+  /* Footer común */
+  .footer {
+    background-color: #198754;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: auto;
+  }
+  
+  /* Textos generales */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+  
+  /* Estilos de video backgrounds */
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }

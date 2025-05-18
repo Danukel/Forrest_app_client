@@ -1,0 +1,28 @@
+.admin-stats-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.stat-card {
+  transition: transform 0.2s;
+}
+
+.stat-card:hover {
+  transform: scale(1.03);
+}
+
+.stat-title {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.stat-value {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #28a745;
+}
+
+.chart-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}

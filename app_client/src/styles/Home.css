@@ -1,0 +1,52 @@
+.home-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hero-section {
+    height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-text h1 {
+    font-size: 4rem;
+  }
+  
+  .hero-text h2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-style: italic;
+  }
+  
+  .search-input {
+    width: 250px;
+  }
+  
+  .testimonial-section {
+    padding: 30px;
+  }
+  
+  .testimonial-section blockquote {
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+
+  .search-dropdown {
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    top: 100%;
+    z-index: 5;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+  }
+  
+  
+  

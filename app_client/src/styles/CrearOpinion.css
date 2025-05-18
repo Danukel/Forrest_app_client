@@ -1,0 +1,20 @@
+.crear-opinion-container {
+    max-width: 700px;
+  }
+  
+  .valoracion-box {
+    background-color: #e6e6e6;
+  }
+  
+  .comentario-box {
+    background-color: #e6e6e6;
+  }
+  
+  .star {
+    transition: transform 0.2s;
+  }
+  
+  .star:hover {
+    transform: scale(1.2);
+  }
+  

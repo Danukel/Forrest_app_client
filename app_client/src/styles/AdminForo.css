@@ -1,0 +1,14 @@
+.foro-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.foro-header h5 {
+  font-weight: 600;
+}
+
+.respuestas {
+  text-decoration: none;
+  color: #198754;
+}

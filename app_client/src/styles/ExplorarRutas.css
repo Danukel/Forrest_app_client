@@ -1,0 +1,17 @@
+.rutas-columna {
+  padding-right: 10rem;
+}
+
+.mapa-simulacion img {
+  border-radius: 8px;
+  max-height: 120px;
+  object-fit: cover;
+}
+
+.filtro-panel {
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

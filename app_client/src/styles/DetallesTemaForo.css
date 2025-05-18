@@ -1,0 +1,44 @@
+/* Espaciado general */
+.container {
+    max-width: 800px;
+  }
+  
+  /* Tarjeta principal del tema */
+  .card h5 {
+    font-size: 1.3rem;
+    font-style: italic;
+  }
+  
+  .card p {
+    font-size: 0.95rem;
+  }
+  
+  .card strong {
+    font-weight: bold;
+  }
+  
+  /* Formulario de respuesta */
+  form input[type="text"] {
+    flex: 1;
+  }
+  
+  /* Botón de responder */
+  button.btn-success {
+    white-space: nowrap;
+  }
+  
+  /* Tarjeta de respuesta individual */
+  .card.mb-2 {
+    background-color: #f4f4f4;
+    border-left: 4px solid #198754;
+  }
+  
+  .card.mb-2 .fst-italic {
+    font-size: 0.95rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .card.mb-2 .text-muted {
+    font-size: 0.85rem;
+    margin-bottom: 0;
+  }

@@ -1,0 +1,14 @@
+.historial-card {
+    position: relative;
+  }
+  
+  .historial-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.35);
+    width: 100%;
+    border-bottom-left-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+  }

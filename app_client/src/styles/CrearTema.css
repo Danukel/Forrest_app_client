@@ -1,0 +1,15 @@
+.crear-tema-container {
+    max-width: 700px;
+  }
+  
+  /* Fondo gris del encabezado de cada input */
+  .label-box {
+    display: block;
+    padding: 0.5rem 1rem;
+    background-color: #ddd;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-bottom: -10px;
+    font-style: italic;
+  }
+  

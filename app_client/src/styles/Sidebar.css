@@ -1,0 +1,58 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #f8f9fa;
+  position: fixed;
+  left: -250px;
+  top: 0;
+  transition: all 0.3s ease;
+  padding: 20px;
+  z-index: 1000;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link-custom {
+  color: #198754;
+  font-weight: bold;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* 🎯 animaciones suaves */
+}
+
+.nav-link-custom i {
+  margin-right: 10px;
+}
+
+.nav-link-custom:hover {
+  background-color: #d1e7dd;
+  text-decoration: none;
+}
+
+.nav-link-custom.active {
+  background-color: #198754;
+  color: white !important;
+}
+
+.logout-button {
+  background-color: #198754;
+  border: none;
+  padding: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #145c32;
+}

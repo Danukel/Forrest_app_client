@@ -1,0 +1,29 @@
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.hero-text h2 {
+  font-size: 1.5rem;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}

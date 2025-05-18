@@ -1,0 +1,16 @@
+.ruta-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+  
+  .ruta-card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .card-img-overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.55), transparent);
+    border-radius: 12px;
+  }

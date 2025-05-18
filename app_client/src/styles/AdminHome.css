@@ -1,0 +1,43 @@
+.admin-home-page {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand img {
+  height: 52px;
+}
+
+.offcanvas-body .nav-link {
+  font-size: 1.1rem;
+  color: #212529;
+}
+
+.offcanvas-body .nav-link:hover,
+.offcanvas-body .nav-link.active {
+  color: #198754; /* Bootstrap success color */
+  font-weight: bold;
+}
+
+.offcanvas-footer {
+  padding: 1rem;
+  border-top: 1px solid #dee2e6;
+}
+
+.card-title {
+  font-style: italic;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  background-color: #198754;
+  color: white;
+}
